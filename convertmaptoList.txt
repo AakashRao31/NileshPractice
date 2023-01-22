@@ -1,0 +1,9 @@
+public List<String> mapvaltolist(Map<String , Integer>map){
+
+Collection<Integer> val = map.values();
+
+ArrayList<Integer> al = new arrayList<>(values);
+
+return al;
+
+}
