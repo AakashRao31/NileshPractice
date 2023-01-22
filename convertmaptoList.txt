@@ -6,4 +6,8 @@ ArrayList<Integer> al = new arrayList<>(values);
 
 return al;
 
+//you can also do better way
+
+map.values().stream().Collectors(tocollection(ArrayList::new));
+
 }
